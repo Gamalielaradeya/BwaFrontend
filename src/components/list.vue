@@ -15,13 +15,13 @@ export default {
       <div class="w-full grid grid-cols-3 px-2 gap-x-4 gap-y-6">
         <transition-group name="fade" mode="out-in">
         <div v-for="product in filteredProducts" :key="product.id">
-          <div class="flex flex-col h-full">
+          <div class="flex flex-col h-full group">
             <a href="" class="flex items-center justify-center relative">
               <img src="https://buildwithangga.com/themes/front/images/play_btn_blue.svg" alt="tombolpley"
-                class="absolute">
-              <img src="https://buildwithangga.com/storage/assets/thumbnails/freelancer_basic_thumb.png" alt="gambar" class="rounded-t-xl">
+                class="absolute translate-y-36 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition ease-in-out duration-700">
+              <img :src="product.image" alt="gambar" class="rounded-t-xl">
             </a>
-            <div class="px-2 bg-white py-4 rounded-xl">
+            <div class="px-2 bg-white py-4 rounded-xl z-10">
               <div class="h-14">
                 <span class="font-semibold text-xl" id="name">{{ product.name }}</span>
               </div>
