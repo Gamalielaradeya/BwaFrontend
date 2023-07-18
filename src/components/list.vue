@@ -6,6 +6,11 @@ export default {
       required: true,
     },
   },
+  methods: {
+    getLevels(level) {
+      return this.$parent.getLevels(level);
+    },
+  },
 };
 </script>
 
@@ -47,7 +52,7 @@ export default {
                   </div>
                 </div>
                 <div>
-                  <img src="https://buildwithangga.com/themes/front/images/ic_lv_ez.svg" alt="" class="w-6">
+                  <img :src="getLevels(product.levels)" alt="" class="w-6">
                 </div>
               </div>
             </div>

@@ -12,22 +12,26 @@ export default {
   data() {
     return {
       products: [
-        { id: 0, name: 'Vanilla JavaScript Pada Website Development', harga: 'Rp 0', category: 'Coding' , image:'https://buildwithangga.com/storage/assets/thumbnails/freelancer_basic_thumb.png' },
-        { id: 1, name: 'Flutter Mobile Apps', harga: 'Rp 0', category: 'Coding', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%20flutter%20mobile%20apps%20online%20gratis%20buildwith%20angga.png' },
-        { id: 2, name: 'CSS Website Design', harga: 'Rp 0', category: 'Coding', image:'https://buildwithangga.com/storage/assets/thumbnails/kelas%20css%20website%20design%20gratis%20buildwith%20angga.png' },
-        { id: 3, name: 'PHP Laravel Web Development', harga: 'Rp 0', category: 'Coding', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail_larafree.png' },
-        { id: 4, name: 'React JavaScript', harga: 'Rp 0', category: 'Coding', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%20react%20javascript%20web%20development%20buildwith%20angga.png' },
-        { id: 5, name: 'Vue JavaScript Framework', harga: 'Rp 0', category: 'Coding', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail_vue_starter.png' },
-        { id: 6, name: 'PHP Dasar Website Development', harga: 'Rp 0', category: 'Coding', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%20es6%20buildwith%20angga.png' },
-        { id: 7, name: 'CSS Tailwind Web Design', harga: 'Rp 0', category: 'Coding', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%20css%20tailwind%20web%20design%20buildwith%20angga.png' },
-        { id: 8, name: 'ES6 Dasar', harga: 'Rp 0', category: 'Coding', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%20es6%20buildwith%20angga.png' },
-        { id: 9, name: 'Learn Figma For Beginner', harga: 'Rp 0', category: 'Design', image:'https://buildwithangga.com/storage/assets/thumbnails/gkm59j5l-63.png' },
-        { id: 10, name: 'UI Design: Wireframe to Visual Design', harga: 'Rp 0', category: 'Design', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%20ui%20design%20wireframe%20ke%20visual%20design%20buildwith%20angga.png' },
-        { id: 11, name: 'Blender: Design 3D Illustration', harga: 'Rp 0', category: 'Design', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%203d%20design%20blender%20buildwith%20angga.png' },
-        { id: 12, name: 'Adobe Illustration: How to create Icon for UI', harga: 'Rp 0', category: 'Design', image:'https://buildwithangga.com/storage/assets/thumbnails/Thumbnail%20kelas%20Icon%20user-interface%20design%20buildwith%20angga.png' },
+        { id: 0, name: 'Vanilla JavaScript Pada Website Development', harga: 'Rp 0', category: 'Coding' , image:'https://buildwithangga.com/storage/assets/thumbnails/freelancer_basic_thumb.png', levels:'beginner' },
+        { id: 1, name: 'Flutter Mobile Apps', harga: 'Rp 0', category: 'Coding', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%20flutter%20mobile%20apps%20online%20gratis%20buildwith%20angga.png', levels:'beginner' },
+        { id: 2, name: 'CSS Website Design', harga: 'Rp 0', category: 'Coding', image:'https://buildwithangga.com/storage/assets/thumbnails/kelas%20css%20website%20design%20gratis%20buildwith%20angga.png', levels:'beginner' },
+        { id: 3, name: 'PHP Laravel Web Development', harga: 'Rp 0', category: 'Coding', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail_larafree.png', levels:'beginner' },
+        { id: 4, name: 'React JavaScript', harga: 'Rp 0', category: 'Coding', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%20react%20javascript%20web%20development%20buildwith%20angga.png', levels:'beginner' },
+        { id: 5, name: 'Vue JavaScript Framework', harga: 'Rp 0', category: 'Coding', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail_vue_starter.png', levels:'beginner' },
+        { id: 6, name: 'PHP Dasar Website Development', harga: 'Rp 0', category: 'Coding', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%20es6%20buildwith%20angga.png', levels:'intermediate' },
+        { id: 7, name: 'CSS Tailwind Web Design', harga: 'Rp 0', category: 'Coding', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%20css%20tailwind%20web%20design%20buildwith%20angga.png', levels:'intermediate' },
+        { id: 8, name: 'ES6 Dasar', harga: 'Rp 0', category: 'Coding', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%20es6%20buildwith%20angga.png', levels:'intermediate' },
+        { id: 9, name: 'Learn Figma For Beginner', harga: 'Rp 0', category: 'Design', image:'https://buildwithangga.com/storage/assets/thumbnails/gkm59j5l-63.png', levels:'intermediate' },
+        { id: 10, name: 'UI Design: Wireframe to Visual Design', harga: 'Rp 0', category: 'Design', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%20ui%20design%20wireframe%20ke%20visual%20design%20buildwith%20angga.png', levels:'allLevels' },
+        { id: 11, name: 'Blender: Design 3D Illustration', harga: 'Rp 0', category: 'Design', image:'https://buildwithangga.com/storage/assets/thumbnails/thumbnail%20kelas%203d%20design%20blender%20buildwith%20angga.png', levels:'allLevels' },
+        { id: 12, name: 'Adobe Illustration: How to create Icon for UI', harga: 'Rp 0', category: 'Design', image:'https://buildwithangga.com/storage/assets/thumbnails/Thumbnail%20kelas%20Icon%20user-interface%20design%20buildwith%20angga.png', levels:'allLevels' },
       ],
       filteredProducts: [],
-      level: lemao,
+      level: [
+        { beginner:'https://buildwithangga.com/themes/front/images/ic_lv_ez.svg' },
+        { intermediate:'https://buildwithangga.com/themes/front/images/ic_lv_med.svg' },
+        { allLevels:'https://buildwithangga.com/themes/front/images/ic_lv_hard.svg'},
+      ]
     };
   },
   methods: {
@@ -39,6 +43,14 @@ export default {
           selectedCategories.includes(product.category)
         );
       }
+    },
+    getLevels(level) {
+      for (const levelObj of this.level) {
+        if (level in levelObj) {
+          return levelObj[level];
+        }
+      }
+      return '';
     },
   },
 };
@@ -54,7 +66,7 @@ export default {
       <span>Sesuai Karir Kamu</span>
     </div>
     <div class="flex flex-row pt-10">
-      <katalog @category-change="handleCategoryChange" />
+      <katalog @category-change="handleCategoryChange" @level-change="handleLevelsChange" />
       <list :filteredProducts="filteredProducts" />
     </div>
   </div>
